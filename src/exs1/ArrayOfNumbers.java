@@ -1,4 +1,4 @@
-package entities;
+package exs1;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -16,9 +16,12 @@ public class ArrayOfNumbers {
     }
 
     // Methods
+    // Initial state
     public void printArray() {
         System.out.println("this.array value: " + Arrays.toString(this.array));
     }
 
-    //to continue - exs1 with class
+    public void updateValue(int index, int value) throws ArrayIndexOutOfBoundsException {
+        this.array[index] = value;
+    }
 }
