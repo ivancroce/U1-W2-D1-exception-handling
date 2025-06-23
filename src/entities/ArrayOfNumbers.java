@@ -20,5 +20,5 @@ public class ArrayOfNumbers {
         System.out.println("this.array value: " + Arrays.toString(this.array));
     }
 
-    //to continue
+    //to continue - exs1 with class
 }
